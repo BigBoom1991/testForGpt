@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import Req from "./req/Req";
 
 function App() {
