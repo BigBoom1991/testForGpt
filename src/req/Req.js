@@ -85,8 +85,8 @@ class Req extends React.Component {
                     messages: this.state.system
                         ? [{role: "system", content: this.state.system}, ...this.state.chats]
                         : [...this.state.chats],
+                    ...obj,
                 })
-                console.log(completion);
                 this.setState({
                     chats: [
                         ...this.state.chats,
