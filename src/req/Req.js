@@ -5,7 +5,7 @@ import {Configuration, OpenAIApi} from "openai";
 const {TextArea} = Input;
 
 const configuration = new Configuration({
-    organization: "org-t6AFcmldZLPrM2sYOZXJa07O",
+    organization: "",
     apiKey: "",
 });
 const openai = new OpenAIApi(configuration);
